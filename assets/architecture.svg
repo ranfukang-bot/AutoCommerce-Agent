@@ -1,0 +1,40 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="420" fill="#0f172a"/>
+  <text x="600" y="55" text-anchor="middle" fill="#ffffff" font-size="32" font-family="Arial">AutoCommerce-Agent Workflow</text>
+  <g font-family="Arial" font-size="18" fill="#ffffff">
+    <rect x="40" y="150" width="170" height="80" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="125" y="185" text-anchor="middle">Product</text>
+    <text x="125" y="210" text-anchor="middle">Input</text>
+
+    <rect x="250" y="150" width="170" height="80" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="335" y="185" text-anchor="middle">Insight</text>
+    <text x="335" y="210" text-anchor="middle">Agent</text>
+
+    <rect x="460" y="150" width="170" height="80" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="545" y="185" text-anchor="middle">Script</text>
+    <text x="545" y="210" text-anchor="middle">Agent</text>
+
+    <rect x="670" y="150" width="170" height="80" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="755" y="185" text-anchor="middle">Prompt</text>
+    <text x="755" y="210" text-anchor="middle">Agent</text>
+
+    <rect x="880" y="150" width="170" height="80" rx="18" fill="#1e293b" stroke="#38bdf8"/>
+    <text x="965" y="185" text-anchor="middle">Quality</text>
+    <text x="965" y="210" text-anchor="middle">Agent</text>
+
+    <rect x="500" y="300" width="200" height="70" rx="18" fill="#1e293b" stroke="#22c55e"/>
+    <text x="600" y="342" text-anchor="middle">Report Output</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)">
+    <line x1="210" y1="190" x2="250" y2="190"/>
+    <line x1="420" y1="190" x2="460" y2="190"/>
+    <line x1="630" y1="190" x2="670" y2="190"/>
+    <line x1="840" y1="190" x2="880" y2="190"/>
+    <line x1="965" y1="230" x2="640" y2="300"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
